@@ -1,0 +1,64 @@
+:root {
+    --primary-color:#818CF8;
+    --dark-color:
+    #111827;
+
+}
+
+body {
+    background-color: var(--primary-color);
+    color: var(--dark-color);
+}
+
+main {
+    max-width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.input-label {
+    display: block;
+    max-width: 100%;
+    padding: 1rem 1rem;
+    font-weight:bold;
+    font-size: large;
+    margin: auto;
+    text-align: center;
+}
+.input {
+    max-width: 100%;
+    display: block;
+    padding: 0.5rem 1rem;
+    margin: auto;
+    text-align: center;
+    border: 2px solid var(--dark-color);
+}
+.button-box {
+    padding: 0.5rem 0.5rem;
+    border-radius: 1rem;
+    margin: 1rem 1rem;
+    background-color: var(--dark-color);
+    color: white;
+    font-weight: bold;
+}
+.outputBox {
+    font-size: large;
+    font-weight: bold;
+    border: 2px solid var(--dark-color);
+    max-width: 50%;
+    margin: auto;
+}
+
+.container {
+    border: 1px solid var(--dark-color);
+}
+
+.link-home {
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+    margin: 5rem 1rem;
+    color: white;
+    font-size: x-large;
+}
